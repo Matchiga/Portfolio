@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans&display=swap');
+
+* {
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-site {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding: 1rem;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.button-header button{
+    height: 24px;
+    position: relative;
+    text-transform: uppercase;
+    padding-inline-start: 0.75rem;
+    padding-inline-end: 0.75rem;
+    color: #fff;
+    border-radius: 0.5rem;
+    background: #2F80ED;
+    transition: all 0.1s ease 0s;
+}
+
+.button-header button::after{
+    color: #000;
+}
+
+.logo-site {
+    margin: 30px;
+}
+
+.button-header {
+    margin: 30px;
+}
+
+div {
+    display: block;
+}
+
+main {
+    padding-top: 115px;
+    padding-bottom: 115px;
+    max-width: 500px;
+}
+
+.container-apresetation{
+    display: grid;
+    max-width: 1920px;
+    grid-gap: clamp(4px, calc(-5.09px + 2.42vw), 24px);
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0px 0px 30px 0px;
+    width: 100%;
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 2.5rem;
+}
+
+.photo-user-tag img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.container-name-description {
+    grid-column: span 3/span 3;
+}
+
+.container-name-description h1{
+    font-size: 36px;
+}
+
+.title3 h2{
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    font-size: 24px;
+}
+
+.container-about-me{
+    margin-bottom: 2rem;
+}
+
+.title1 h2{
+    line-height: 1.2;
+    margin-bottom: 2.5rem;
+    font-size: 24px;
+}
+
+.container-work-experience{
+    display: grid;
+    grid-gap: clamp(4px, calc(-5.09px + 2.42vw), 24px);
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 2.0rem;
+}
+
+.time-work{
+    grid-column: span 1/span 1;
+}
+
+.work-description{
+    grid-column: span 3/span 3;
+}
+
+.title-project{
+    color: #fff;
+    line-height: 1.2;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.title-project h2{
+    font-size: 24px;
+}
+
+.container-project{
+    display: grid;
+    grid-gap: clamp(4px, calc(-5.09px + 2.42vw), 24px);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.container-information{
+    grid-column: span 3/span 3;
+}
+
+.title4 h2{
+    color: #fff;
+    line-height: 1.2;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    font-size: 24px;
+}
+
+.container-link{
+    display: grid;
+    grid-gap: clamp(4px, calc(-5.09px + 2.42vw), 24px);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.title-link{
+    grid-column: span 1/span 1;
+    margin-bottom: 0.5rem;
+}
+
+.link{
+    grid-column: span 3/span 3;
+}
+
+
+
