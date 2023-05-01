@@ -32,6 +32,4 @@ Pré-requisito: Git
 
 Matheus Gomes Chiga
 
-Linkedin:
-
-<button src="https://www.linkedin.com/in/matheus-gomes-chiga/" style="display: flex; width:30px; height:26px; font-size: 16px; border-radius:10px; justify-content:center; align-items:center; border-color:transparent; background-color:#0e76a8; color:#fff; font-family:Helvetica;">IN
+Linkedin: https://www.linkedin.com/in/matheus-gomes-chiga/
