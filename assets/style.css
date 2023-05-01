@@ -25,6 +25,11 @@ img{
     height: auto;
 }
 
+.logo-site img{
+    width: 50px;
+    height: 50px;
+}
+
 .button-header button{
     height: 24px;
     position: relative;
@@ -35,10 +40,6 @@ img{
     border-radius: 0.5rem;
     background: #2F80ED;
     transition: all 0.1s ease 0s;
-}
-
-.button-header button::after{
-    color: #000;
 }
 
 .logo-site {
@@ -76,6 +77,7 @@ main {
     align-items: center;
     justify-content: center;
     position: relative;
+    border-radius: 9999px;
 }
 
 .container-name-description {
@@ -86,6 +88,15 @@ main {
     font-size: 36px;
 }
 
+.container-name-description p{
+    color: #718096;
+}
+
+.container-information img{
+    height: 40px;
+    width: 40px;
+}
+
 .title3 h2{
     line-height: 1.2;
     margin-bottom: 0.5rem;
@@ -94,6 +105,10 @@ main {
 
 .container-about-me{
     margin-bottom: 2rem;
+}
+
+.container-about-me p{
+    color: #A0AEC0;
 }
 
 .title1 h2{
@@ -113,8 +128,24 @@ main {
     grid-column: span 1/span 1;
 }
 
+.time-work p{
+    color: #A0AEC0;
+}
+
 .work-description{
     grid-column: span 3/span 3;
+}
+
+.work-description p{
+    color: #718096;
+}
+
+.container-time p{
+    color: #A0AEC0;
+}
+
+.container-information p{
+    color: #718096;
 }
 
 .title-project{
@@ -155,11 +186,9 @@ main {
 .title-link{
     grid-column: span 1/span 1;
     margin-bottom: 0.5rem;
+    color: #718096;
 }
 
 .link{
     grid-column: span 3/span 3;
 }
-
-
-
