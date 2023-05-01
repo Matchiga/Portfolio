@@ -13,7 +13,7 @@
 .header-site {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: Center;
     position: fixed;
     top: 0px;
     width: 100%;
@@ -40,6 +40,7 @@ img{
     border-radius: 0.5rem;
     background: #2F80ED;
     transition: all 0.1s ease 0s;
+    text-decoration: none;
 }
 
 .logo-site {
