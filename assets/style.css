@@ -21,7 +21,8 @@ button{
     position: fixed;
     top: 0px;
     width: 100%;
-    padding: 1rem;
+    margin: 0;
+    padding: 0;
     background-color: transparent;
 }
 
