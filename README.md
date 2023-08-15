@@ -8,7 +8,6 @@ Criei um currículo utilizando apenas HTML5 e CSS3. A intenção é fazer um sit
 
 A ideia do projeto é me apresentar, e também mostrar um pouco das minhas habilidades utilizando apenas HTML5 e CSS3. 
 
-E no currículo estarei a demonstrar todas minhas habilidades front-end, back-end e banco de dados. 
 # Tecnologias utilizadas
 ## Frontend
 - HTML5
